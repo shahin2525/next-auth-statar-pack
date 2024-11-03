@@ -43,7 +43,7 @@ const RegisterPage = () => {
           />
         </div>
 
-        <div className="card w-[70%] h-[70%] shadow-xl bg-base-100">
+        <div className="card w-[70%] h-[80%] shadow-xl bg-base-100">
           <form onSubmit={handleSubmit(onSubmit)} className="card-body py-3">
             <div className="form-control">
               <label className="label">
@@ -88,7 +88,7 @@ const RegisterPage = () => {
                 Register
               </button>
             </div>
-            <p className="text-center">
+            <p className="text-center mt-2">
               Already have an account?{" "}
               <Link className="text-accent" href="/login">
                 Login
